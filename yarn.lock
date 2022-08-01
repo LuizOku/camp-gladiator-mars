@@ -1094,7 +1094,7 @@
     "@campgladiator/cgui-core.styles.mixins" "0.0.6"
     core-js "^3.0.0"
 
-"@campgladiator/cgui-core.atoms.typography@0.0.7":
+"@campgladiator/cgui-core.atoms.typography@0.0.7", "@campgladiator/cgui-core.atoms.typography@^0.0.7":
   version "0.0.7"
   resolved "https://node.bit.cloud/@campgladiator/cgui-core.atoms.typography/-/@campgladiator-cgui-core.atoms.typography-0.0.7.tgz#404d6cb5b4a69b17efa11aea8cc85fe742433138"
   integrity sha1-QE1stbSmmxfvoRrqjMhf50JDMTg=

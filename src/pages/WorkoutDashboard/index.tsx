@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 
+import { Hero } from "../../components";
 import { getWorkouts } from "../../api/workout";
 
 const WorkoutDashboard: React.FC = () => {
@@ -12,6 +13,7 @@ const WorkoutDashboard: React.FC = () => {
   }, []);
   return (
     <>
+      <Hero />
       <div>WorkoutDashboard</div>
     </>
   );
