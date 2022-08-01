@@ -3,4 +3,4 @@ import type { AppDispatch } from "../store";
 
 const useAppDispatch: () => AppDispatch = useDispatch;
 
-export default useAppDispatch;
+export { useAppDispatch };

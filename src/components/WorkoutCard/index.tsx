@@ -33,8 +33,11 @@ const WorkoutCard = ({ workout }: WorkoutCardI) => {
           <StyledTag size="tiny" emphasis="primary" variation="alternative">
             Level {workout.levelTag}
           </StyledTag>
-          <StyledTag size="tiny" emphasis="secondary" variation="alternative">
+          <StyledTag size="tiny" emphasis="default">
             Impact {workout.impactTag}
+          </StyledTag>
+          <StyledTag size="tiny" emphasis="default" variation="alternative">
+            {workout.duration} mins
           </StyledTag>
         </TagsContainer>
       </ContentInfo>

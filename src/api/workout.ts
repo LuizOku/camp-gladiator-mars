@@ -5,5 +5,5 @@ import api from "../services";
 
 export const getWorkouts: () => Promise<WorkoutI[]> = () =>
   api
-    .get<WorkoutI[]>("workouts.json")
+    .get<WorkoutI[]>("/workouts.json")
     .then((response: AxiosResponse) => response.data);

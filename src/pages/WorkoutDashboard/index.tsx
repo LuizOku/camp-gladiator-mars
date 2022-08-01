@@ -8,8 +8,8 @@ import React, {
 
 import { Heading } from "@campgladiator/cgui-core.atoms.typography";
 
-import useAppDispatch from "../../hooks/useAppDispatch";
-import useAppSelector from "../../hooks/useAppSelector";
+import { useAppDispatch } from "../../hooks/useAppDispatch";
+import { useAppSelector } from "../../hooks/useAppSelector";
 import {
   setList as setWorkoutList,
   selectWorkoutList,
@@ -31,16 +31,20 @@ const WorkoutDashboard = () => {
   const formRef = useRef() as MutableRefObject<HTMLFormElement>;
   const dispatch = useAppDispatch();
   const workouts = useAppSelector(selectWorkoutList);
-  const [filteredWorkouts, setFilteredWorkouts] = useState<WorkoutI[]>([]);
+  const [filteredWorkouts, setFilteredWorkouts] =
+    useState<WorkoutI[]>(workouts);
 
   useEffect(() => {
     const fetchWorkouts = async () => {
+      if (workouts.length > 0) {
+        return;
+      }
       const res = await getWorkouts();
       dispatch(setWorkoutList(res));
       setFilteredWorkouts(res);
     };
     fetchWorkouts();
-  }, []);
+  }, [workouts]);
 
   const handleFilterWorkouts = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();

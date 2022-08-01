@@ -31,5 +31,5 @@ export const TagsContainer = styled.div`
 `;
 
 export const StyledTag = styled(Tag)`
-  margin: 2px 0px;
+  margin: 2px 2px 2px 0px;
 `;
