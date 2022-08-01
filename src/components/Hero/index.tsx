@@ -2,7 +2,7 @@ import React from "react";
 
 import { Container, Text } from "./styles.css";
 
-const Hero: React.FC = () => {
+const Hero = () => {
   return (
     <Container>
       <Text type="h3" variation="display" font="united">

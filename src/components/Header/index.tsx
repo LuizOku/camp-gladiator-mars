@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import { Container, Logo } from "./styles.css";
 
-const Header: React.FC = () => {
+const Header = () => {
   return (
     <Container>
       <Link to="/">

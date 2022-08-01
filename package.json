@@ -3,7 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@campgladiator/cgui-core.atoms.avatar": "^0.0.4",
+    "@campgladiator/cgui-core.atoms.button": "^1.0.0",
+    "@campgladiator/cgui-core.atoms.card": "^0.0.6",
+    "@campgladiator/cgui-core.atoms.fieldset": "^0.0.4",
+    "@campgladiator/cgui-core.atoms.tag": "^1.0.1",
     "@campgladiator/cgui-core.atoms.typography": "^0.0.7",
+    "@campgladiator/cgui-core.molecules.select": "^0.0.1",
     "@campgladiator/cgui-core.organisms.footer": "^1.0.4",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
