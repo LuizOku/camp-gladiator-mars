@@ -8,6 +8,12 @@ import React, {
 
 import { Heading } from "@campgladiator/cgui-core.atoms.typography";
 
+import useAppDispatch from "../../hooks/useAppDispatch";
+import useAppSelector from "../../hooks/useAppSelector";
+import {
+  setList as setWorkoutList,
+  selectWorkoutList,
+} from "../../slices/workoutSlice";
 import { Hero, WorkoutCard } from "../../components";
 import { getWorkouts } from "../../api/workout";
 import LEVELS from "../../shared/enums/levels.enum";
@@ -23,13 +29,14 @@ import {
 
 const WorkoutDashboard = () => {
   const formRef = useRef() as MutableRefObject<HTMLFormElement>;
-  const [workouts, setWorkouts] = useState<WorkoutI[]>([]);
+  const dispatch = useAppDispatch();
+  const workouts = useAppSelector(selectWorkoutList);
   const [filteredWorkouts, setFilteredWorkouts] = useState<WorkoutI[]>([]);
 
   useEffect(() => {
     const fetchWorkouts = async () => {
       const res = await getWorkouts();
-      setWorkouts(res);
+      dispatch(setWorkoutList(res));
       setFilteredWorkouts(res);
     };
     fetchWorkouts();
