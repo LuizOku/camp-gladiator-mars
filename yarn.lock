@@ -1070,6 +1070,123 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
+"@campgladiator/cgui-core.atoms.download-app-button@0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.cloud/@campgladiator/cgui-core.atoms.download-app-button/-/@campgladiator-cgui-core.atoms.download-app-button-0.0.1.tgz#6c3d40ccc709411ab9a7aaf23e66731e3ed4f4f5"
+  integrity sha1-bD1AzMcJQRq5p6ryPmZzHj7U9PU=
+  dependencies:
+    core-js "^3.0.0"
+
+"@campgladiator/cgui-core.atoms.icon@1.0.0":
+  version "1.0.0"
+  resolved "https://node.bit.cloud/@campgladiator/cgui-core.atoms.icon/-/@campgladiator-cgui-core.atoms.icon-1.0.0.tgz#0054e59e00b65173a29b4d78582ad58b97e3f81a"
+  integrity sha1-AFTlngC2UXOim014WCrVi5fj+Bo=
+  dependencies:
+    "@campgladiator/cgui-core.styles.fonts.cgicons" "0.0.2"
+    classnames "^2.3.1"
+    core-js "^3.0.0"
+
+"@campgladiator/cgui-core.atoms.logo@0.0.8":
+  version "0.0.8"
+  resolved "https://node.bit.cloud/@campgladiator/cgui-core.atoms.logo/-/@campgladiator-cgui-core.atoms.logo-0.0.8.tgz#7ee2609fadd07754d1ef72730507102307907273"
+  integrity sha1-fuJgn63Qd1TR73JzBQcQIweQcnM=
+  dependencies:
+    "@campgladiator/cgui-core.styles.mixins" "0.0.6"
+    core-js "^3.0.0"
+
+"@campgladiator/cgui-core.atoms.typography@0.0.7":
+  version "0.0.7"
+  resolved "https://node.bit.cloud/@campgladiator/cgui-core.atoms.typography/-/@campgladiator-cgui-core.atoms.typography-0.0.7.tgz#404d6cb5b4a69b17efa11aea8cc85fe742433138"
+  integrity sha1-QE1stbSmmxfvoRrqjMhf50JDMTg=
+  dependencies:
+    "@campgladiator/cgui-core.styles.breakpoints" "0.0.4"
+    "@campgladiator/cgui-core.styles.fonts.gotham" "0.0.3"
+    "@campgladiator/cgui-core.styles.fonts.united" "0.0.3"
+    "@campgladiator/cgui-core.styles.variables.typography" "0.0.3"
+    classnames "^2.3.1"
+    core-js "^3.0.0"
+
+"@campgladiator/cgui-core.organisms.footer@^1.0.4":
+  version "1.0.4"
+  resolved "https://node.bit.cloud/@campgladiator/cgui-core.organisms.footer/-/@campgladiator-cgui-core.organisms.footer-1.0.4.tgz#1b5998ebb0ab81b961a3ebd3e76eb2b65f6f019f"
+  integrity sha1-G1mY67Crgblho+vT526ytl9vAZ8=
+  dependencies:
+    "@campgladiator/cgui-core.atoms.download-app-button" "0.0.1"
+    "@campgladiator/cgui-core.atoms.icon" "1.0.0"
+    "@campgladiator/cgui-core.atoms.logo" "0.0.8"
+    "@campgladiator/cgui-core.atoms.typography" "0.0.7"
+    "@campgladiator/cgui-core.styles.breakpoints" "0.0.4"
+    "@campgladiator/cgui-core.styles.helpers.grid" "0.0.3"
+    "@campgladiator/cgui-core.styles.variables.colors" "0.0.3"
+    "@campgladiator/cgui-core.utilities.helpers.links" "0.0.2"
+    classnames "^2.3.1"
+    core-js "^3.0.0"
+
+"@campgladiator/cgui-core.styles.breakpoints@0.0.4":
+  version "0.0.4"
+  resolved "https://node.bit.cloud/@campgladiator/cgui-core.styles.breakpoints/-/@campgladiator-cgui-core.styles.breakpoints-0.0.4.tgz#0e96d3cb89801c3856b4ea79a754d2be71c95801"
+  integrity sha1-DpbTy4mAHDhWtOp5p1TSvnHJWAE=
+  dependencies:
+    core-js "^3.0.0"
+
+"@campgladiator/cgui-core.styles.fonts.cgicons@0.0.2":
+  version "0.0.2"
+  resolved "https://node.bit.cloud/@campgladiator/cgui-core.styles.fonts.cgicons/-/@campgladiator-cgui-core.styles.fonts.cgicons-0.0.2.tgz#e57ede9ecec21ac57280ad33d862420ef2f08ef2"
+  integrity sha1-5X7ens7CGsVygK0z2GJCDvLwjvI=
+  dependencies:
+    core-js "^3.0.0"
+
+"@campgladiator/cgui-core.styles.fonts.gotham@0.0.3":
+  version "0.0.3"
+  resolved "https://node.bit.cloud/@campgladiator/cgui-core.styles.fonts.gotham/-/@campgladiator-cgui-core.styles.fonts.gotham-0.0.3.tgz#22cb660309525670502c10d0a1465bd79c21a928"
+  integrity sha1-IstmAwlSVnBQLBDQoUZb15whqSg=
+  dependencies:
+    core-js "^3.0.0"
+
+"@campgladiator/cgui-core.styles.fonts.united@0.0.3":
+  version "0.0.3"
+  resolved "https://node.bit.cloud/@campgladiator/cgui-core.styles.fonts.united/-/@campgladiator-cgui-core.styles.fonts.united-0.0.3.tgz#46587f30947eaa7560c81908a26c1e8726b54f14"
+  integrity sha1-Rlh/MJR+qnVgyBkIomwehya1TxQ=
+  dependencies:
+    core-js "^3.0.0"
+
+"@campgladiator/cgui-core.styles.helpers.grid@0.0.3":
+  version "0.0.3"
+  resolved "https://node.bit.cloud/@campgladiator/cgui-core.styles.helpers.grid/-/@campgladiator-cgui-core.styles.helpers.grid-0.0.3.tgz#4de737f6480cf95d11d47ef65b718710443841eb"
+  integrity sha1-Tec39kgM+V0R1H72W3GHEEQ4Qes=
+  dependencies:
+    "@campgladiator/cgui-core.styles.breakpoints" "0.0.4"
+    core-js "^3.0.0"
+
+"@campgladiator/cgui-core.styles.mixins@0.0.6":
+  version "0.0.6"
+  resolved "https://node.bit.cloud/@campgladiator/cgui-core.styles.mixins/-/@campgladiator-cgui-core.styles.mixins-0.0.6.tgz#30113cc70e0ab3e5bbc628209d1696c330607f75"
+  integrity sha1-MBE8xw4Ks+W7xiggnRaWwzBgf3U=
+  dependencies:
+    "@campgladiator/cgui-core.styles.variables.colors" "0.0.3"
+    core-js "^3.0.0"
+
+"@campgladiator/cgui-core.styles.variables.colors@0.0.3":
+  version "0.0.3"
+  resolved "https://node.bit.cloud/@campgladiator/cgui-core.styles.variables.colors/-/@campgladiator-cgui-core.styles.variables.colors-0.0.3.tgz#7aa18d72482068c46de7d4cc2a7c095915e133a3"
+  integrity sha1-eqGNckggaMRt59TMKnwJWRXhM6M=
+  dependencies:
+    core-js "^3.0.0"
+
+"@campgladiator/cgui-core.styles.variables.typography@0.0.3":
+  version "0.0.3"
+  resolved "https://node.bit.cloud/@campgladiator/cgui-core.styles.variables.typography/-/@campgladiator-cgui-core.styles.variables.typography-0.0.3.tgz#f5f2c9be64db30027bdba5b830b40b87b496cca9"
+  integrity sha1-9fLJvmTbMAJ726W4MLQLh7SWzKk=
+  dependencies:
+    core-js "^3.0.0"
+
+"@campgladiator/cgui-core.utilities.helpers.links@0.0.2":
+  version "0.0.2"
+  resolved "https://node.bit.cloud/@campgladiator/cgui-core.utilities.helpers.links/-/@campgladiator-cgui-core.utilities.helpers.links-0.0.2.tgz#171aad4ecece3af77aa974868a7dffc70f0866d1"
+  integrity sha1-FxqtTs7OOvd6qXSGin3/xw8IZtE=
+  dependencies:
+    core-js "^3.0.0"
+
 "@csstools/normalize.css@*":
   version "12.0.0"
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-12.0.0.tgz#a9583a75c3f150667771f30b60d9f059473e62c4"
@@ -3024,7 +3141,7 @@ check-types@^11.1.1:
   resolved "https://registry.yarnpkg.com/check-types/-/check-types-11.1.2.tgz#86a7c12bf5539f6324eb0e70ca8896c0e38f3e2f"
   integrity sha512-tzWzvgePgLORb9/3a0YenggReLKAIb2owL03H2Xdoe5pKcUyWRSEQ8xfCar8t2SIAuEDwtmx2da1YB52YuHQMQ==
 
-chokidar@^3.4.2, chokidar@^3.5.3:
+"chokidar@>=3.0.0 <4.0.0", chokidar@^3.4.2, chokidar@^3.5.3:
   version "3.5.3"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.5.3.tgz#1cf37c8707b932bd1af1ae22c0432e2acd1903bd"
   integrity sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==
@@ -3053,6 +3170,11 @@ cjs-module-lexer@^1.0.0:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/cjs-module-lexer/-/cjs-module-lexer-1.2.2.tgz#9f84ba3244a512f3a54e5277e8eef4c489864e40"
   integrity sha512-cOU9usZw8/dXIXKtwa8pM0OTJQuJkxMN6w30csNRUerHfeQ5R6U3kkU/FtJeIf3M202OHfY2U8ccInBG7/xogA==
+
+classnames@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
+  integrity sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==
 
 clean-css@^5.2.2:
   version "5.3.1"
@@ -3237,7 +3359,7 @@ core-js-pure@^3.20.2, core-js-pure@^3.8.1:
   resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.24.1.tgz#8839dde5da545521bf282feb7dc6d0b425f39fd3"
   integrity sha512-r1nJk41QLLPyozHUUPmILCEMtMw24NG4oWK6RbsDdjzQgg9ZvrUsPBj1MnG0wXXp1DCDU6j+wUvEmBSrtRbLXg==
 
-core-js@^3.19.2:
+core-js@^3.0.0, core-js@^3.19.2:
   version "3.24.1"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.24.1.tgz#cf7724d41724154010a6576b7b57d94c5d66e64f"
   integrity sha512-0QTBSYSUZ6Gq21utGzkfITDylE8jWC9Ne1D2MrhvlsZBI1x39OdDIVbzSqtgMndIy6BlHxBXpMGqzZmnztg2rg==
@@ -4934,6 +5056,11 @@ immer@^9.0.7:
   version "9.0.15"
   resolved "https://registry.yarnpkg.com/immer/-/immer-9.0.15.tgz#0b9169e5b1d22137aba7d43f8a81a495dd1b62dc"
   integrity sha512-2eB/sswms9AEUSkOm4SbV5Y7Vmt/bKRwByd52jfLkW4OLYeaTP3EEiJ9agqU0O/tq6Dk62Zfj+TJSqfm1rLVGQ==
+
+immutable@^4.0.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/immutable/-/immutable-4.1.0.tgz#f795787f0db780183307b9eb2091fcac1f6fafef"
+  integrity sha512-oNkuqVTA8jqG1Q6c+UglTOD1xhC1BtjKI7XkCXRkZHrN5m18/XsnUp8Q89GkQO/z+0WjonSvl0FLhDYftp46nQ==
 
 import-fresh@^3.0.0, import-fresh@^3.1.0, import-fresh@^3.2.1:
   version "3.3.0"
@@ -7731,6 +7858,15 @@ sass-loader@^12.3.0:
     klona "^2.0.4"
     neo-async "^2.6.2"
 
+sass@^1.54.0:
+  version "1.54.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.54.0.tgz#24873673265e2a4fe3d3a997f714971db2fba1f4"
+  integrity sha512-C4zp79GCXZfK0yoHZg+GxF818/aclhp9F48XBu/+bm9vXEVAYov9iU3FBVRMq3Hx3OA4jfKL+p2K9180mEh0xQ==
+  dependencies:
+    chokidar ">=3.0.0 <4.0.0"
+    immutable "^4.0.0"
+    source-map-js ">=0.6.2 <2.0.0"
+
 sax@~1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
@@ -7947,7 +8083,7 @@ source-list-map@^2.0.0, source-list-map@^2.0.1:
   resolved "https://registry.yarnpkg.com/source-list-map/-/source-list-map-2.0.1.tgz#3993bd873bfc48479cca9ea3a547835c7c154b34"
   integrity sha512-qnQ7gVMxGNxsiL4lEuJwe/To8UnK7fAnmbGEEH8RpLouuKbeEm0lhbQVFIrNSuB+G7tVrAlVsZgETT5nljf+Iw==
 
-source-map-js@^1.0.1, source-map-js@^1.0.2:
+"source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.1, source-map-js@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
   integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==

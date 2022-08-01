@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+
 import { getWorkouts } from "../../api/workout";
 
 const WorkoutDashboard: React.FC = () => {
@@ -9,7 +10,11 @@ const WorkoutDashboard: React.FC = () => {
     };
     fetchWorkouts();
   }, []);
-  return <div>WorkoutDashboard</div>;
+  return (
+    <>
+      <div>WorkoutDashboard</div>
+    </>
+  );
 };
 
 export default WorkoutDashboard;
