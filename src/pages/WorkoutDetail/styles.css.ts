@@ -28,6 +28,7 @@ export const VideoWrapper = styled.div`
   background-color: #ffffff;
   padding: 10px;
   border-radius: 10px;
+  border: 1px solid #d4d4d4;
   box-shadow: 0px 0px 20px rgb(0 0 0 / 10%);
 `;
 
