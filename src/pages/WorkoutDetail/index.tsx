@@ -77,6 +77,7 @@ const WorkoutDetail = () => {
       </TagsContainer>
       <VideoWrapper>
         <ReactPlayer
+          data-testid="video-player"
           width={320 * screenSizeMultiplier}
           height={180 * screenSizeMultiplier}
           url={workout?.media}

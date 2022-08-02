@@ -2,9 +2,9 @@ import React from "react";
 
 import { Container, Text } from "./styles.css";
 
-const Hero = () => {
+const Hero = ({ testId }: { testId?: string }) => {
   return (
-    <Container>
+    <Container data-testid={testId}>
       <Text type="h3" variation="display" font="united">
         Camp Gladiator is going to Mars...
       </Text>

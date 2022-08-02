@@ -68,7 +68,7 @@ const WorkoutDashboard = () => {
 
   return (
     <>
-      <Hero />
+      <Hero testId="hero-section" />
       <Container>
         <Heading type="h3" variation="display" font="gotham">
           Find the exercise that fits to you
@@ -101,7 +101,11 @@ const WorkoutDashboard = () => {
         {filteredWorkouts.length > 0 ? (
           <CardsContainer>
             {filteredWorkouts.map((fw) => (
-              <WorkoutCard key={fw.id} workout={fw} />
+              <WorkoutCard
+                testId={`workout-card-${fw.id}`}
+                key={fw.id}
+                workout={fw}
+              />
             ))}
           </CardsContainer>
         ) : (

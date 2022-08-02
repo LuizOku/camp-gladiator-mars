@@ -1,12 +1,20 @@
-import { configureStore } from "@reduxjs/toolkit";
+import { configureStore, combineReducers } from "@reduxjs/toolkit";
 
 import workoutReducer from "./slices/workoutSlice";
 
-export const store = configureStore({
-  reducer: {
-    workout: workoutReducer,
-  },
+const rootReducer = combineReducers({
+  workout: workoutReducer,
 });
+
+export const setupStore = (preloadedState: object = {}) => {
+  return configureStore({
+    reducer: rootReducer,
+    devTools: process.env.NODE_ENV !== "production",
+    preloadedState,
+  });
+};
+
+export const store = setupStore();
 
 // Infer the `RootState` and `AppDispatch` types from the store itself
 export type RootState = ReturnType<typeof store.getState>;

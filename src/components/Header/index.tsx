@@ -4,11 +4,14 @@ import { Link } from "react-router-dom";
 
 import { Container, Logo } from "./styles.css";
 
-const Header = () => {
+const Header = ({ testId }: { testId?: string }) => {
   return (
-    <Container>
+    <Container data-testid={testId}>
       <Link to="/">
-        <Logo src={require("../../assets/img/camp-gladiator-full.png")} />
+        <Logo
+          data-testid="header-logo-img"
+          src={require("../../assets/img/camp-gladiator-full.png")}
+        />
       </Link>
     </Container>
   );

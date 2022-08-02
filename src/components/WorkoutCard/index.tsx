@@ -14,15 +14,17 @@ import {
 
 export type WorkoutCardI = {
   workout: WorkoutI;
+  testId?: string;
 };
-const WorkoutCard = ({ workout }: WorkoutCardI) => {
+const WorkoutCard = ({ workout, testId }: WorkoutCardI) => {
   const navigate = useNavigate();
   const navigateToWorkoutDetail = () => navigate(`workouts/${workout.id}`);
   return (
-    <Container raised onClick={navigateToWorkoutDetail}>
+    <Container data-testid={testId} raised onClick={navigateToWorkoutDetail}>
       <StyledAvatar
         src={workout.thumbnail}
         size="50px"
+        data-testid={`thumbnail-${workout.title}`}
         alt={`thumbnail-${workout.title}`}
       />
       <ContentInfo>

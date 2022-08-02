@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WorkoutDashboard /> renders without crashing 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-dkzDqf uWKzM"
+        data-testid="hero-section"
+      >
+        <h3
+          class="heading sc-hKMtZM eZJtHV"
+          data-font="united"
+          data-variation="display"
+        >
+          Camp Gladiator is going to Mars...
+        </h3>
+        <h3
+          class="heading sc-hKMtZM eZJtHV"
+          data-font="united"
+          data-variation="default"
+        >
+          Start now your virtual workouts!
+        </h3>
+      </div>
+      <div
+        class="sc-papXJ czGCkr"
+      >
+        <h3
+          class="heading "
+          data-font="gotham"
+          data-variation="display"
+        >
+          Find the exercise that fits to you
+        </h3>
+        <form>
+          <div
+            class="fieldset fieldset--inline sc-crXcEl iRbwfs"
+          >
+            <div
+              class="content sc-kDDrLX jUNfll"
+            >
+              <div
+                class="outsideWrapper active"
+                data-disabled="false"
+                data-invalid="false"
+                style="max-height: 75px;"
+              >
+                <div
+                  class="innerWrapper noRecords"
+                >
+                  <p
+                    class="paragraph placeholder"
+                    data-size="small"
+                    data-weight="book"
+                  >
+                    Level
+                  </p>
+                  <div
+                    class="wrapper paragraph"
+                    data-size="small"
+                    data-value=""
+                  >
+                    <input
+                      class="input"
+                      value=""
+                    />
+                  </div>
+                  <div
+                    class="controls"
+                  />
+                </div>
+                <input
+                  hidden=""
+                  name="level"
+                  readonly=""
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="content sc-kDDrLX jUNfll"
+            >
+              <div
+                class="outsideWrapper active"
+                data-disabled="false"
+                data-invalid="false"
+                style="max-height: 75px;"
+              >
+                <div
+                  class="innerWrapper noRecords"
+                >
+                  <p
+                    class="paragraph placeholder"
+                    data-size="small"
+                    data-weight="book"
+                  >
+                    Impact
+                  </p>
+                  <div
+                    class="wrapper paragraph"
+                    data-size="small"
+                    data-value=""
+                  >
+                    <input
+                      class="input"
+                      value=""
+                    />
+                  </div>
+                  <div
+                    class="controls"
+                  />
+                </div>
+                <input
+                  hidden=""
+                  name="impact"
+                  readonly=""
+                  value=""
+                />
+              </div>
+            </div>
+            <button
+              class="button sc-iqcoie fwqNIQ"
+              data-children="true"
+              data-emphasis="primary"
+              data-floating="false"
+              data-icon="false"
+              data-size="default"
+              data-variation="solid"
+              type="submit"
+            >
+              <span
+                class="label content"
+                data-size="default"
+              >
+                Filter
+              </span>
+            </button>
+          </div>
+        </form>
+        <div
+          class="sc-evZas gzZmBv"
+        >
+          <article
+            class="card false card--raised sc-eCYdqJ fmqJBb"
+            data-testid="workout-card-3"
+          >
+            <img
+              class="avatar sc-gKXOVf efHPNN"
+              data-testid="thumbnail-Strength and Agility by Amber Autrey"
+              src="https://cgcdn.s3.amazonaws.com/nation/users/UID-W1405610919UID-53c7eba7a992b.png"
+              style="width: 50px; height: 50px;"
+            />
+            <div
+              class="sc-jSMfEi hEqNgO"
+            >
+              <p
+                class="paragraph "
+                data-size="default"
+                data-weight="bold"
+              >
+                Strength and Agility by Amber Autrey
+              </p>
+              <div
+                class="sc-iBkjds cdystf"
+              >
+                <div
+                  class="tag sc-ftvSup itDdzq"
+                  data-emphasis="primary"
+                  data-size="tiny"
+                  data-variation="alternative"
+                >
+                  <p
+                    class="paragraph "
+                    data-size="tiny"
+                    data-weight="bold"
+                  >
+                    Level 
+                    beginner
+                  </p>
+                </div>
+                <div
+                  class="tag sc-ftvSup itDdzq"
+                  data-emphasis="default"
+                  data-size="tiny"
+                  data-variation="default"
+                >
+                  <p
+                    class="paragraph "
+                    data-size="tiny"
+                    data-weight="bold"
+                  >
+                    Impact 
+                    high
+                  </p>
+                </div>
+                <div
+                  class="tag sc-ftvSup itDdzq"
+                  data-emphasis="default"
+                  data-size="tiny"
+                  data-variation="alternative"
+                >
+                  <p
+                    class="paragraph "
+                    data-size="tiny"
+                    data-weight="bold"
+                  >
+                    60
+                     mins
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article
+            class="card false card--raised sc-eCYdqJ fmqJBb"
+            data-testid="workout-card-4"
+          >
+            <img
+              class="avatar sc-gKXOVf efHPNN"
+              data-testid="thumbnail-Strength and Agility by Claire Donahoe"
+              src="https://cgcdn.s3.amazonaws.com/nation/users/UID-D1489527062UID-58c86116311d9.png"
+              style="width: 50px; height: 50px;"
+            />
+            <div
+              class="sc-jSMfEi hEqNgO"
+            >
+              <p
+                class="paragraph "
+                data-size="default"
+                data-weight="bold"
+              >
+                Strength and Agility by Claire Donahoe
+              </p>
+              <div
+                class="sc-iBkjds cdystf"
+              >
+                <div
+                  class="tag sc-ftvSup itDdzq"
+                  data-emphasis="primary"
+                  data-size="tiny"
+                  data-variation="alternative"
+                >
+                  <p
+                    class="paragraph "
+                    data-size="tiny"
+                    data-weight="bold"
+                  >
+                    Level 
+                    beginner
+                  </p>
+                </div>
+                <div
+                  class="tag sc-ftvSup itDdzq"
+                  data-emphasis="default"
+                  data-size="tiny"
+                  data-variation="default"
+                >
+                  <p
+                    class="paragraph "
+                    data-size="tiny"
+                    data-weight="bold"
+                  >
+                    Impact 
+                    low
+                  </p>
+                </div>
+                <div
+                  class="tag sc-ftvSup itDdzq"
+                  data-emphasis="default"
+                  data-size="tiny"
+                  data-variation="alternative"
+                >
+                  <p
+                    class="paragraph "
+                    data-size="tiny"
+                    data-weight="bold"
+                  >
+                    60
+                     mins
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-dkzDqf uWKzM"
+      data-testid="hero-section"
+    >
+      <h3
+        class="heading sc-hKMtZM eZJtHV"
+        data-font="united"
+        data-variation="display"
+      >
+        Camp Gladiator is going to Mars...
+      </h3>
+      <h3
+        class="heading sc-hKMtZM eZJtHV"
+        data-font="united"
+        data-variation="default"
+      >
+        Start now your virtual workouts!
+      </h3>
+    </div>
+    <div
+      class="sc-papXJ czGCkr"
+    >
+      <h3
+        class="heading "
+        data-font="gotham"
+        data-variation="display"
+      >
+        Find the exercise that fits to you
+      </h3>
+      <form>
+        <div
+          class="fieldset fieldset--inline sc-crXcEl iRbwfs"
+        >
+          <div
+            class="content sc-kDDrLX jUNfll"
+          >
+            <div
+              class="outsideWrapper active"
+              data-disabled="false"
+              data-invalid="false"
+              style="max-height: 75px;"
+            >
+              <div
+                class="innerWrapper noRecords"
+              >
+                <p
+                  class="paragraph placeholder"
+                  data-size="small"
+                  data-weight="book"
+                >
+                  Level
+                </p>
+                <div
+                  class="wrapper paragraph"
+                  data-size="small"
+                  data-value=""
+                >
+                  <input
+                    class="input"
+                    value=""
+                  />
+                </div>
+                <div
+                  class="controls"
+                />
+              </div>
+              <input
+                hidden=""
+                name="level"
+                readonly=""
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="content sc-kDDrLX jUNfll"
+          >
+            <div
+              class="outsideWrapper active"
+              data-disabled="false"
+              data-invalid="false"
+              style="max-height: 75px;"
+            >
+              <div
+                class="innerWrapper noRecords"
+              >
+                <p
+                  class="paragraph placeholder"
+                  data-size="small"
+                  data-weight="book"
+                >
+                  Impact
+                </p>
+                <div
+                  class="wrapper paragraph"
+                  data-size="small"
+                  data-value=""
+                >
+                  <input
+                    class="input"
+                    value=""
+                  />
+                </div>
+                <div
+                  class="controls"
+                />
+              </div>
+              <input
+                hidden=""
+                name="impact"
+                readonly=""
+                value=""
+              />
+            </div>
+          </div>
+          <button
+            class="button sc-iqcoie fwqNIQ"
+            data-children="true"
+            data-emphasis="primary"
+            data-floating="false"
+            data-icon="false"
+            data-size="default"
+            data-variation="solid"
+            type="submit"
+          >
+            <span
+              class="label content"
+              data-size="default"
+            >
+              Filter
+            </span>
+          </button>
+        </div>
+      </form>
+      <div
+        class="sc-evZas gzZmBv"
+      >
+        <article
+          class="card false card--raised sc-eCYdqJ fmqJBb"
+          data-testid="workout-card-3"
+        >
+          <img
+            class="avatar sc-gKXOVf efHPNN"
+            data-testid="thumbnail-Strength and Agility by Amber Autrey"
+            src="https://cgcdn.s3.amazonaws.com/nation/users/UID-W1405610919UID-53c7eba7a992b.png"
+            style="width: 50px; height: 50px;"
+          />
+          <div
+            class="sc-jSMfEi hEqNgO"
+          >
+            <p
+              class="paragraph "
+              data-size="default"
+              data-weight="bold"
+            >
+              Strength and Agility by Amber Autrey
+            </p>
+            <div
+              class="sc-iBkjds cdystf"
+            >
+              <div
+                class="tag sc-ftvSup itDdzq"
+                data-emphasis="primary"
+                data-size="tiny"
+                data-variation="alternative"
+              >
+                <p
+                  class="paragraph "
+                  data-size="tiny"
+                  data-weight="bold"
+                >
+                  Level 
+                  beginner
+                </p>
+              </div>
+              <div
+                class="tag sc-ftvSup itDdzq"
+                data-emphasis="default"
+                data-size="tiny"
+                data-variation="default"
+              >
+                <p
+                  class="paragraph "
+                  data-size="tiny"
+                  data-weight="bold"
+                >
+                  Impact 
+                  high
+                </p>
+              </div>
+              <div
+                class="tag sc-ftvSup itDdzq"
+                data-emphasis="default"
+                data-size="tiny"
+                data-variation="alternative"
+              >
+                <p
+                  class="paragraph "
+                  data-size="tiny"
+                  data-weight="bold"
+                >
+                  60
+                   mins
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article
+          class="card false card--raised sc-eCYdqJ fmqJBb"
+          data-testid="workout-card-4"
+        >
+          <img
+            class="avatar sc-gKXOVf efHPNN"
+            data-testid="thumbnail-Strength and Agility by Claire Donahoe"
+            src="https://cgcdn.s3.amazonaws.com/nation/users/UID-D1489527062UID-58c86116311d9.png"
+            style="width: 50px; height: 50px;"
+          />
+          <div
+            class="sc-jSMfEi hEqNgO"
+          >
+            <p
+              class="paragraph "
+              data-size="default"
+              data-weight="bold"
+            >
+              Strength and Agility by Claire Donahoe
+            </p>
+            <div
+              class="sc-iBkjds cdystf"
+            >
+              <div
+                class="tag sc-ftvSup itDdzq"
+                data-emphasis="primary"
+                data-size="tiny"
+                data-variation="alternative"
+              >
+                <p
+                  class="paragraph "
+                  data-size="tiny"
+                  data-weight="bold"
+                >
+                  Level 
+                  beginner
+                </p>
+              </div>
+              <div
+                class="tag sc-ftvSup itDdzq"
+                data-emphasis="default"
+                data-size="tiny"
+                data-variation="default"
+              >
+                <p
+                  class="paragraph "
+                  data-size="tiny"
+                  data-weight="bold"
+                >
+                  Impact 
+                  low
+                </p>
+              </div>
+              <div
+                class="tag sc-ftvSup itDdzq"
+                data-emphasis="default"
+                data-size="tiny"
+                data-variation="alternative"
+              >
+                <p
+                  class="paragraph "
+                  data-size="tiny"
+                  data-weight="bold"
+                >
+                  60
+                   mins
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

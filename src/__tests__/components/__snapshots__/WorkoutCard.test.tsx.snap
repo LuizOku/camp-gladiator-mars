@@ -1,0 +1,204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WorkoutCard /> renders without crashing 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <article
+        class="card false card--raised sc-eCYdqJ fmqJBb"
+      >
+        <img
+          class="avatar sc-gKXOVf efHPNN"
+          data-testid="thumbnail-Strength and Agility by Amber Autrey"
+          src="https://cgcdn.s3.amazonaws.com/nation/users/UID-W1405610919UID-53c7eba7a992b.png"
+          style="width: 50px; height: 50px;"
+        />
+        <div
+          class="sc-jSMfEi hEqNgO"
+        >
+          <p
+            class="paragraph "
+            data-size="default"
+            data-weight="bold"
+          >
+            Strength and Agility by Amber Autrey
+          </p>
+          <div
+            class="sc-iBkjds cdystf"
+          >
+            <div
+              class="tag sc-ftvSup itDdzq"
+              data-emphasis="primary"
+              data-size="tiny"
+              data-variation="alternative"
+            >
+              <p
+                class="paragraph "
+                data-size="tiny"
+                data-weight="bold"
+              >
+                Level 
+                beginner
+              </p>
+            </div>
+            <div
+              class="tag sc-ftvSup itDdzq"
+              data-emphasis="default"
+              data-size="tiny"
+              data-variation="default"
+            >
+              <p
+                class="paragraph "
+                data-size="tiny"
+                data-weight="bold"
+              >
+                Impact 
+                high
+              </p>
+            </div>
+            <div
+              class="tag sc-ftvSup itDdzq"
+              data-emphasis="default"
+              data-size="tiny"
+              data-variation="alternative"
+            >
+              <p
+                class="paragraph "
+                data-size="tiny"
+                data-weight="bold"
+              >
+                60
+                 mins
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </body>,
+  "container": <div>
+    <article
+      class="card false card--raised sc-eCYdqJ fmqJBb"
+    >
+      <img
+        class="avatar sc-gKXOVf efHPNN"
+        data-testid="thumbnail-Strength and Agility by Amber Autrey"
+        src="https://cgcdn.s3.amazonaws.com/nation/users/UID-W1405610919UID-53c7eba7a992b.png"
+        style="width: 50px; height: 50px;"
+      />
+      <div
+        class="sc-jSMfEi hEqNgO"
+      >
+        <p
+          class="paragraph "
+          data-size="default"
+          data-weight="bold"
+        >
+          Strength and Agility by Amber Autrey
+        </p>
+        <div
+          class="sc-iBkjds cdystf"
+        >
+          <div
+            class="tag sc-ftvSup itDdzq"
+            data-emphasis="primary"
+            data-size="tiny"
+            data-variation="alternative"
+          >
+            <p
+              class="paragraph "
+              data-size="tiny"
+              data-weight="bold"
+            >
+              Level 
+              beginner
+            </p>
+          </div>
+          <div
+            class="tag sc-ftvSup itDdzq"
+            data-emphasis="default"
+            data-size="tiny"
+            data-variation="default"
+          >
+            <p
+              class="paragraph "
+              data-size="tiny"
+              data-weight="bold"
+            >
+              Impact 
+              high
+            </p>
+          </div>
+          <div
+            class="tag sc-ftvSup itDdzq"
+            data-emphasis="default"
+            data-size="tiny"
+            data-variation="alternative"
+          >
+            <p
+              class="paragraph "
+              data-size="tiny"
+              data-weight="bold"
+            >
+              60
+               mins
+            </p>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
