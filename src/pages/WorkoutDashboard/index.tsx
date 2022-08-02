@@ -25,6 +25,7 @@ import {
   StyledButton,
   StyledFieldset,
   CardsContainer,
+  Title,
 } from "./styles.css";
 
 const WorkoutDashboard = () => {
@@ -70,9 +71,9 @@ const WorkoutDashboard = () => {
     <>
       <Hero testId="hero-section" />
       <Container>
-        <Heading type="h3" variation="display" font="gotham">
+        <Title type="h3" variation="display" font="gotham">
           Find the exercise that fits to you
-        </Heading>
+        </Title>
         <form ref={formRef} onSubmit={(e) => handleFilterWorkouts(e)}>
           <StyledFieldset inline>
             <StyledSelect

@@ -14,9 +14,9 @@ export const Container = styled.div`
   padding: 100px;
 `;
 
-export const Text = styled(Heading)`
-  color: #ffffff;
-  margin-top: 10px;
+export const Title = styled(Heading)`
+  color: #000000;
+  text-align: center;
 `;
 
 export const StyledSelect = styled(Select)`
